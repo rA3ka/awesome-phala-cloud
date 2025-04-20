@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "description"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the template"
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name of the template"
+      },
+      "description": {
+        "type": "string",
+        "description": "Detailed description of the template"
+      }
+    },
+    "additionalProperties": false
+  }
+} 

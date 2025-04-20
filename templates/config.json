@@ -1,0 +1,7 @@
+[
+  {
+    "id": "httpbin",
+    "name": "Httpbin",
+    "description": "HTTP Request & Response Service"
+  }
+]
