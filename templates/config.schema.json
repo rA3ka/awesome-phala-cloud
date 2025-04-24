@@ -3,7 +3,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "name", "description"],
+    "required": ["id", "name", "repo"],
     "properties": {
       "id": {
         "type": "string",
@@ -16,8 +16,11 @@
       "description": {
         "type": "string",
         "description": "Detailed description of the template"
+      },
+      "repo": {
+        "type": "string"
       }
     },
     "additionalProperties": false
   }
-} 
+}

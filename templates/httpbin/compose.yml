@@ -1,7 +1,0 @@
-# Example Phala Cloud Docker Compose template
-# Add your configuration here 
-services:
-  httpbin:
-    image: kennethreitz/httpbin:latest
-    ports:
-      - "80:80"

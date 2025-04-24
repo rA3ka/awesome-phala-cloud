@@ -17,5 +17,3 @@ A curated list of awesome Phala Cloud resources, tools, and templates.
 This repository serves as a collection of Docker Compose templates for Phala Cloud.
 
 #### Available Templates
-
-- [example.yml](./templates/example.yml)
