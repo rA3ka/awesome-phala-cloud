@@ -15,5 +15,10 @@ To submit a new template, please follow these steps:
    - Format: PNG
    - Recommended resolution: 800x500 pixels
 4. Update the project's `README.md` to include your template in the list of available templates
+5. (Optional) Add a "Deploy to Phala Cloud" button to your template's `README.md`:
+   ```markdown
+   [![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates/{template_id})
+   ```
+   Replace `{template_id}` with your actual template ID
 
 Thank you for your contribution!
