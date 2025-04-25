@@ -8,12 +8,16 @@ A curated list of awesome Phala Cloud resources, tools, and templates.
 
 ### Starter Templates
 
-- [phala-cloud-python-starter](https://github.com/Phala-Network/phala-cloud-python-starter) - Python starter template for Phala Cloud
-- [phala-cloud-nextjs-starter](https://github.com/Phala-Network/phala-cloud-nextjs-starter) - Next.js starter template for Phala Cloud
-- [phala-cloud-bun-starter](https://github.com/Phala-Network/phala-cloud-bun-starter) - Bun starter template for Phala Cloud
+- [Next.js Starter](https://github.com/Phala-Network/phala-cloud-nextjs-starter) - Template for developing a Next.js-based app with boilerplate code targeting deployment on Phala Cloud and DStack
+- [Python Starter](https://github.com/Phala-Network/phala-cloud-python-starter) - Template for developing a FastAPI-based app with boilerplate code targeting deployment on Phala Cloud and DStack
+- [Bun + TypeScript Starter](https://github.com/Phala-Network/phala-cloud-bun-starter) - Template for developing a Bun-based app with boilerplate code targeting deployment on Phala Cloud and DStack
 
 ### Docker Compose Templates
 
-This repository serves as a collection of Docker Compose templates for Phala Cloud.
+- [TEE Tor Hidden Service](https://github.com/Dstack-TEE/dstack-examples/tree/main/tor-hidden-service) - Docker compose example that sets up a Tor hidden service and serves an nginx website
+- [TEE Coprocessors in Dstack](https://github.com/Dstack-TEE/dstack-examples/tree/main/lightclient) - Minimal docker file for using the Helios light client to provide a trustworthy view of the blockchain
+- [Webshell](https://github.com/Dstack-TEE/dstack-examples/tree/main/webshell) - Guide for setting up and using a webshell with the ttyd service
 
-#### Available Templates
+### Contributing
+
+Review the [Contributing guidelines](CONTRIBUTING.md).
