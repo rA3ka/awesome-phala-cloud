@@ -23,6 +23,10 @@
           "type": "string"
         }
       },
+      "cover": {
+        "type": "string",
+        "description": "Cover URL"
+      },
       "author": {
         "type": "string",
         "description": "Github user handle"
@@ -52,7 +56,7 @@
         "type": "array",
         "items": {
           "type": "object",
-          "required": ["key"],
+          "required": ["key", "required"],
           "properties": {
             "key": {
               "type": "string"
