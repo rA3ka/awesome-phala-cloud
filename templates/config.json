@@ -37,7 +37,8 @@
     "description": "Minimal docker file for using the Helios light client to provide a trustworthy view of the blockchain.",
     "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/lightclient",
     "author": "Dstack-TEE",
-    "cover": "lightclient.png"
+    "cover": "lightclient.png",
+    "envs": [{ "key": "ETH_RPC_URL", "required": true }]
   },
   {
     "id": "webshell",
