@@ -58,8 +58,9 @@
     "id": "evm-mcp",
     "name": "EVM MCP",
     "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
-    "repo": "https://github.com/tolak/evm-mcp",
-    "author": "tolak",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/evm-mcp-server",
+    "author": "MCP-DAO",
+    "envs": [{ "key": "EVM_PRIVATE_KEY", "required": true }, { "key": "RPC_URL", "required": true }, { "key": "OPENAI_API_KEY", "required": true }, { "key": "PERPLEXITY_API_KEY", "required": true }, { "key": "COINGECKO_PRO_API_KEY", "required": true }],
     "tags": ["MCP"]
   }
 ]
