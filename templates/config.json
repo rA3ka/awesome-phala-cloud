@@ -53,5 +53,13 @@
     "author": "Dstack-TEE",
     "cover": "webshell.png",
     "tags": ["Dstack"]
+  },
+  {
+    "id": "evm-mcp",
+    "name": "EVM MCP",
+    "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
+    "repo": "https://github.com/tolak/evm-mcp",
+    "author": "tolak",
+    "tags": ["MCP"]
   }
 ]
