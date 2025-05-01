@@ -78,6 +78,14 @@
     "tags": ["MCP"]
   },
   {
+    "id": "mcp-server-fetch",
+    "name": "MCP Server Fetch",
+    "description": "A MCP server deployed on Phala Cloud that enables AI agents to fetch real-time data from a given URL.",
+    "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/fetch",
+    "author": "Leechael",
+    "tags": ["MCP"]
+  },
+  {
     "id": "tor-hidden-service",
     "name": "TEE Tor Hidden Service",
     "description": "This docker compose example sets up a Tor hidden service and serves an nginx website from that.",
