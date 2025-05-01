@@ -10,12 +10,12 @@
     "tags": ["MCP"]
   },
   {
-    "id": "demap-defilama",
-    "name": "DeMCP Defilama",
+    "id": "demap-defillama",
+    "name": "DeMCP Defillama",
     "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
     "author": "DeMCP",
-    "cover": "mcp-defilama.png",
+    "cover": "mcp-defillama.png",
     "tags": ["MCP"]
   },
   {
@@ -24,7 +24,7 @@
     "description": "A Near MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Near data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/near-mcp-server",
     "author": "Phala-Network",
-    "envs": [{ "key": "NEAR_KEYSTOREDATA", "required": true }, { "key": "NEAR_NETWORK" }, { "key": "NEAR_ACCOUNT_ID", "required": true }],
+    "envs": [{ "key": "NEAR_KEYSTOREDATA", "required": true }, { "key": "NEAR_NETWORK", "required": false }, { "key": "NEAR_ACCOUNT_ID", "required": true }],
     "cover": "mcp-near.png",
     "tags": ["MCP"]
   },
