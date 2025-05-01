@@ -62,5 +62,40 @@
     "author": "MCP-DAO",
     "envs": [{ "key": "EVM_PRIVATE_KEY", "required": true }, { "key": "RPC_URL", "required": true }, { "key": "OPENAI_API_KEY", "required": true }, { "key": "PERPLEXITY_API_KEY", "required": true }, { "key": "COINGECKO_PRO_API_KEY", "required": true }],
     "tags": ["MCP"]
+  },
+  {
+    "id": "demap-defilama",
+    "name": "DeMCP Defilama",
+    "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
+    "author": "DeMCP",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "near-mcp",
+    "name": "Near MCP",
+    "description": "A Near MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Near data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/near-mcp-server",
+    "author": "Phala-Network",
+    "envs": [{ "key": "NEAR_KEYSTOREDATA", "required": true }, { "key": "NEAR_NETWORK" }, { "key": "NEAR_ACCOUNT_ID", "required": true }],
+    "tags": ["MCP"]
+  },
+  {
+    "id": "solana-mcp",
+    "name": "Solana MCP",
+    "description": "A Solana MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Solana data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/solana-mcp",
+    "author": "SendAI & DARK",
+    "envs": [{ "key": "SOLANA_PRIVATE_KEY", "required": true }, { "key": "RPC_URL", "required": true }, { "key": "OPENAI_API_KEY", "required": true }],
+    "tags": ["MCP"]
+  },
+  {
+    "id": "elevenlabs-mcp",
+    "name": "ElevenLabs MCP",
+    "description": "An ElevenLabs MCP server deployed on Phala Cloud that enables AI agents to fetch real-time ElevenLabs data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/elevenlabs-mcp-server",
+    "author": "Phala-Network",
+    "envs": [{ "key": "ELEVENLABS_API_KEY", "required": true }, { "key": "ELEVENLABS_MCP_BASE_PATH", "required": true }],
+    "tags": ["MCP"]
   }
 ]

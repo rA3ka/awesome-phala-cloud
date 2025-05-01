@@ -1,0 +1,12 @@
+services:
+  solana-mcp:
+    image: tolak/solana-mcp-server:v0.1.0
+    container_name: solana-mcp
+    ports:
+      - "3000:3000"
+    environment:
+      - SOLANA_PRIVATE_KEY=${SOLANA_PRIVATE_KEY}
+      - RPC_URL=${RPC_URL}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - PORT=3000
+    restart: unless-stopped

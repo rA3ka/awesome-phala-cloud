@@ -1,0 +1,6 @@
+services:
+  defillama:
+    image: smartalbert/demcp-defillama-mcp-1
+    ports:
+      - 8080:8080
+    restart: unless-stopped
