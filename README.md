@@ -1,6 +1,6 @@
 # Awesome Phala Cloud
 
-[![](https://phala-cloud-git-templates-phala.vercel.app/deploy-button.svg)](https://phala-cloud-git-templates-phala.vercel.app/templates)
+[![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates)
 
 A curated list of awesome Phala Cloud resources, tools, and templates.
 
