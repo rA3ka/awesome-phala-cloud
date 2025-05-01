@@ -1,60 +1,5 @@
 [
   {
-    "id": "nextjs-starter",
-    "name": "Next.js Starter",
-    "description": "This is a template for developing a Next.js-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
-    "repo": "https://github.com/Phala-Network/phala-cloud-nextjs-starter",
-    "author": "Phala-Network",
-    "cover": "nextjs-starter.png",
-    "tags": ["Starter"]
-  },
-  {
-    "id": "python-starter",
-    "name": "Python Starter",
-    "description": "This is a template for developing a FastAPI-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
-    "repo": "https://github.com/Phala-Network/phala-cloud-python-starter",
-    "author": "Phala-Network",
-    "cover": "python-starter.png",
-    "tags": ["Starter"]
-  },
-  {
-    "id": "bun-starter",
-    "name": "Bun + TypeScript Starter",
-    "description": "This is a template for developing a Bun-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
-    "repo": "https://github.com/Phala-Network/phala-cloud-bun-starter",
-    "author": "Phala-Network",
-    "cover": "bun-starter.png",
-    "tags": ["Starter"]
-  },
-  {
-    "id": "tor-hidden-service",
-    "name": "TEE Tor Hidden Service",
-    "description": "This docker compose example sets up a Tor hidden service and serves an nginx website from that.",
-    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/tor-hidden-service",
-    "author": "Dstack-TEE",
-    "cover": "tor-hidden-service.png",
-    "tags": ["Dstack"]
-  },
-  {
-    "id": "lightclient",
-    "name": "TEE Coprocessors in Dstack",
-    "description": "Minimal docker file for using the Helios light client to provide a trustworthy view of the blockchain.",
-    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/lightclient",
-    "author": "Dstack-TEE",
-    "cover": "lightclient.png",
-    "envs": [{ "key": "ETH_RPC_URL", "required": true }],
-    "tags": ["Dstack"]
-  },
-  {
-    "id": "webshell",
-    "name": "Webshell",
-    "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
-    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/webshell",
-    "author": "Dstack-TEE",
-    "cover": "webshell.png",
-    "tags": ["Dstack"]
-  },
-  {
     "id": "evm-mcp",
     "name": "EVM MCP",
     "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
@@ -90,6 +35,14 @@
     "tags": ["MCP"]
   },
   {
+    "id": "jupter-notebook",
+    "name": "Jupyter Notebook",
+    "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/jupter-notebook",
+    "author": "Phala-Network",
+    "tags": ["MCP"]
+  },
+  {
     "id": "elevenlabs-mcp",
     "name": "ElevenLabs MCP",
     "description": "An ElevenLabs MCP server deployed on Phala Cloud that enables AI agents to fetch real-time ElevenLabs data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
@@ -97,5 +50,86 @@
     "author": "Phala-Network",
     "envs": [{ "key": "ELEVENLABS_API_KEY", "required": true }, { "key": "ELEVENLABS_MCP_BASE_PATH", "required": true }],
     "tags": ["MCP"]
+  },
+  {
+    "id": "supabase-db",
+    "name": "Supabase DB",
+    "description": "A Supabase DB MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Supabase DB data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/supabase-db",
+    "author": "Phala-Network",
+    "envs": [{ "key": "SUPABASE_ACCESS_TOKEN", "required": true }],
+    "tags": ["MCP"]
+  },
+  {
+    "id": "figma-mcp",
+    "name": "Figma MCP",
+    "description": "A Figma MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Figma data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/figma-mcp",
+    "author": "Phala-Network",
+    "envs": [{ "key": "FIGMA_API_KEY", "required": true }]  ,
+    "tags": ["MCP"]
+  },
+  {
+    "id": "context7-mcp",
+    "name": "Context7 MCP",
+    "description": "A Context7 MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Context7 data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/context7-mcp",
+    "author": "Phala-Network",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "tor-hidden-service",
+    "name": "TEE Tor Hidden Service",
+    "description": "This docker compose example sets up a Tor hidden service and serves an nginx website from that.",
+    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/tor-hidden-service",
+    "author": "Dstack-TEE",
+    "cover": "tor-hidden-service.png",
+    "tags": ["Dstack"]
+  },
+  {
+    "id": "lightclient",
+    "name": "TEE Coprocessors in Dstack",
+    "description": "Minimal docker file for using the Helios light client to provide a trustworthy view of the blockchain.",
+    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/lightclient",
+    "author": "Dstack-TEE",
+    "cover": "lightclient.png",
+    "envs": [{ "key": "ETH_RPC_URL", "required": true }],
+    "tags": ["Dstack"]
+  },
+  {
+    "id": "webshell",
+    "name": "Webshell",
+    "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
+    "repo": "https://github.com/Dstack-TEE/dstack-examples/tree/main/webshell",
+    "author": "Dstack-TEE",
+    "cover": "webshell.png",
+    "tags": ["Dstack"]
+  },
+  {
+    "id": "nextjs-starter",
+    "name": "Next.js Starter",
+    "description": "This is a template for developing a Next.js-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-nextjs-starter",
+    "author": "Phala-Network",
+    "cover": "nextjs-starter.png",
+    "tags": ["Starter"]
+  },
+  {
+    "id": "python-starter",
+    "name": "Python Starter",
+    "description": "This is a template for developing a FastAPI-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-python-starter",
+    "author": "Phala-Network",
+    "cover": "python-starter.png",
+    "tags": ["Starter"]
+  },
+  {
+    "id": "bun-starter",
+    "name": "Bun + TypeScript Starter",
+    "description": "This is a template for developing a Bun-based app with boilerplate code targeting deployment on Phala Cloud and DStack. It includes the SDK by default to make integration with TEE features easier.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-bun-starter",
+    "author": "Phala-Network",
+    "cover": "bun-starter.png",
+    "tags": ["Starter"]
   }
 ]

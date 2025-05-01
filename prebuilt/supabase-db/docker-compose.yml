@@ -1,0 +1,11 @@
+services:
+  mcp-server:
+    image: tolak/supabase-mcp-server:v0.1.5
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - SUPABASE_ACCESS_TOKEN=${SUPABASE_ACCESS_TOKEN}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped

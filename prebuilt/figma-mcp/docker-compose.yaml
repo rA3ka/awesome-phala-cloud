@@ -1,0 +1,12 @@
+services:
+  figma-mcp:
+    image: tolak/figma-context-mcp:v0.1.1
+    ports:
+      - "3333:3333"
+    environment:
+      - NODE_ENV=production
+      # You'll need to provide your Figma API key through environment variables
+      - FIGMA_API_KEY=${FIGMA_API_KEY}
+    volumes:
+      - /var/run/tappd.sock:/var/run/tappd.sock
+    restart: unless-stopped
