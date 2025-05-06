@@ -36,6 +36,15 @@
     "tags": ["MCP"]
   },
   {
+    "id": "mcp-server-sequential-thinking",
+    "name": "MCP Server Sequential Thinking",
+    "description": "A MCP server deployed on Phala Cloud that enables AI agents to think sequentially.",
+    "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/sequentialthinking",
+    "author": "Leechael",
+    "cover": "mcp-sequential-thinking.jpg",
+    "tags": ["MCP"]
+  },
+  {
     "id": "tor-hidden-service",
     "name": "TEE Tor Hidden Service",
     "description": "This docker compose example sets up a Tor hidden service and serves an nginx website from that.",
