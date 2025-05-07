@@ -47,7 +47,7 @@
   {
     "id": "mcp-swarms-agent",
     "name": "Swarms Agent in Phala TEE",
-    "description": "A Swarms agent deployed on Phala Cloud that aims to be the definitive and most reliable multi-agent LLM framework",
+    "description": "A Swarms agent deployed on Phala Cloud that perform a comprehensive legal team swarm for contract creation and management",
     "repo": "https://github.com/The-Swarm-Corporation/Phala-Deployment-Template",
     "author": "The Swarm Corporation",
     "cover": "mcp-swarms.jpeg",

@@ -19,6 +19,7 @@ A curated list of awesome Phala Cloud resources, tools, and templates.
 - [TEE Tor Hidden Service](https://github.com/Dstack-TEE/dstack-examples/tree/main/tor-hidden-service) - Docker compose example that sets up a Tor hidden service and serves an nginx website
 - [TEE Coprocessors in Dstack](https://github.com/Dstack-TEE/dstack-examples/tree/main/lightclient) - Minimal docker file for using the Helios light client to provide a trustworthy view of the blockchain
 - [Webshell](https://github.com/Dstack-TEE/dstack-examples/tree/main/webshell) - Guide for setting up and using a webshell with the ttyd service
+- [Swarms Agent](https://github.com/The-Swarm-Corporation/Phala-Deployment-Template) - A Swarms agent deployed on Phala Cloud that perform a comprehensive legal team swarm for contract creation and management.
 
 ## Contributing
 
