@@ -6,6 +6,7 @@
     "repo": "https://github.com/mooflowdotai/MOOF-MCP",
     "author": "MOOF",
     "cover": "moof.png",
+    "envs": [{ "key": "MOOF_API_KEY", "required": true }, { "key": "MCP_API_KEY", "required": true }, { "key": "BASE_URL", "required": false }, { "key": "MCP_BASE_URL", "required": false }],
     "tags": ["MCP, A2A, x402"]
   },
   {
