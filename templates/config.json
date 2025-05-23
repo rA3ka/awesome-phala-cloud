@@ -19,15 +19,6 @@
     "tags": ["MCP"]
   },
   {
-    "id": "jupter-notebook",
-    "name": "Jupyter Notebook",
-    "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
-    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/jupter-notebook",
-    "author": "Phala-Network",
-    "cover": "mcp-jupyter.png",
-    "tags": ["MCP"]
-  },
-  {
     "id": "context7-mcp",
     "name": "Context7 MCP",
     "description": "A Context7 MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Context7 data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
