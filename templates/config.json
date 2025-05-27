@@ -108,5 +108,15 @@
     "author": "Phala-Network",
     "cover": "bun-starter.png",
     "tags": ["Starter"]
+  },
+  {
+    "id": "vrf",
+    "name": "VRF Coordinator + Offchain Random Generator",
+    "description": "This is a template for developing a VRF generator on Phala Cloud and DStack. It delivers cryptographically verifiable randomness for Web3 applications with hardware-backed security and unprecedented efficiency.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-vrf-template",
+    "author": "Phala-Network",
+    "cover": "vrf.png",
+    "envs": [{ "key": "RPC_URL", "required": true }, {"key": "CONTRACT_ADDRESS", "required": true}],
+    "tags": ["VRF"]
   }
 ]
