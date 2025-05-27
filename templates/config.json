@@ -1,20 +1,21 @@
 [
   {
+    "id": "moof-mcp",
+    "name": "MOOF MCP",
+    "description": "An MCP server enables LLMs to work with the MOOF platform, deployed on Phala Cloud. It can list flows, create new flows, and deploy other MCP servers on Phala Cloud. Additionally, it supports fetching public flow templates, forking flows from templates, retrieving authenticated user flows, publishing or unpublishing flows to/from the shared flow store, and deploying MCP servers directly from GitHub with optional Phala hosting and environment variable support.",
+    "repo": "https://github.com/moofdotfun/MOOF-MCP",
+    "author": "MOOF",
+    "cover": "moof.png",
+    "envs": [{ "key": "MOOF_API_KEY", "required": true }, { "key": "MCP_API_KEY", "required": true }, { "key": "BASE_URL", "required": false }, { "key": "MCP_BASE_URL", "required": false }],
+    "tags": ["MCP", "A2A", "x402"]
+  },
+  {
     "id": "demap-defillama",
     "name": "DeMCP Defillama",
     "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
     "author": "DeMCP",
     "cover": "mcp-defillama.png",
-    "tags": ["MCP"]
-  },
-  {
-    "id": "jupter-notebook",
-    "name": "Jupyter Notebook",
-    "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
-    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/jupter-notebook",
-    "author": "Phala-Network",
-    "cover": "mcp-jupyter.png",
     "tags": ["MCP"]
   },
   {
@@ -33,6 +34,24 @@
     "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/fetch",
     "author": "Leechael",
     "cover": "mcp-fetch.png",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "mcp-server-sequential-thinking",
+    "name": "MCP Server Sequential Thinking",
+    "description": "A MCP server deployed on Phala Cloud that enables AI agents to think sequentially.",
+    "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/sequentialthinking",
+    "author": "Leechael",
+    "cover": "mcp-sequential-thinking.jpg",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "mcp-swarms-agent",
+    "name": "Swarms Agent in Phala TEE",
+    "description": "A Swarms agent deployed on Phala Cloud that perform a comprehensive legal team swarm for contract creation and management",
+    "repo": "https://github.com/The-Swarm-Corporation/Phala-Deployment-Template",
+    "author": "The-Swarm-Corporation",
+    "cover": "mcp-swarms.png",
     "tags": ["MCP"]
   },
   {
@@ -120,6 +139,16 @@
         "required": true
       }
     ],
-    "tags": ["Starter"]
+    "tags": ["Starter", "x402"]
+  },
+  {
+    "id": "vrf",
+    "name": "VRF Coordinator + Offchain Random Generator",
+    "description": "This is a template for developing a VRF generator on Phala Cloud and DStack. It delivers cryptographically verifiable randomness for Web3 applications with hardware-backed security and unprecedented efficiency.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-vrf-template",
+    "author": "Phala-Network",
+    "cover": "vrf.png",
+    "envs": [{ "key": "RPC_URL", "required": true }, {"key": "CONTRACT_ADDRESS", "required": true}],
+    "tags": ["VRF"]
   }
 ]
