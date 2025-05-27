@@ -98,5 +98,28 @@
     "author": "Armor Crypto",
     "cover": "armor-crypto.png",
     "tags": ["MCP"]
+  },
+  {
+    "id": "coinbase-x402-tee",
+    "name": "Coinbase x402 TEE",
+    "description": "a demonstration of a Node.js Express server that integrates TEE and the [X402 payment protocol](https://www.x402.org/) for monetizing API endpoints.",
+    "repo": "https://github.com/HashWarlock/402-api-test/tree/phala-cloud",
+    "author": "Phala-Network",
+    "cover": "coinbase-x402.png",
+    "envs": [
+      {
+        "key": "WALLET_ADDRESS",
+        "required": true
+      },
+      {
+        "key": "OPENAI_API_KEY",
+        "required": true
+      },
+      {
+        "key": "DSTACK_SECRET_SALT",
+        "required": true
+      }
+    ],
+    "tags": ["Starter"]
   }
 ]
