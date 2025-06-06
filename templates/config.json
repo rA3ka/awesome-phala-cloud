@@ -22,7 +22,7 @@
     "id": "demap-defillama",
     "name": "DeMCP Defillama",
     "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
-    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
     "author": "DeMCP",
     "icon": "mcp-defillama.svg",
     "tags": ["MCP"]
@@ -31,7 +31,7 @@
     "id": "context7-mcp",
     "name": "Context7 MCP",
     "description": "A Context7 MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Context7 data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
-    "repo": "https://github.com/Leechael/awesome-phala-cloud/tree/main/prebuilt/context7-mcp",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/context7-mcp",
     "author": "Phala-Network",
     "icon": "mcp-context7.png",
     "tags": ["MCP"]
@@ -40,7 +40,7 @@
     "id": "mcp-server-fetch",
     "name": "MCP Server Fetch",
     "description": "A MCP server deployed on Phala Cloud that enables AI agents to fetch real-time data from a given URL.",
-    "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/fetch",
+    "repo": "https://github.com/Phala-Network/mcp-servers/tree/main/src/fetch",
     "author": "Leechael",
     "icon": "mcp-fetch.png",
     "tags": ["MCP"]
@@ -49,7 +49,7 @@
     "id": "mcp-server-sequential-thinking",
     "name": "MCP Server Sequential Thinking",
     "description": "A MCP server deployed on Phala Cloud that enables AI agents to think sequentially.",
-    "repo": "https://github.com/Leechael/mcp-servers/tree/main/src/sequentialthinking",
+    "repo": "https://github.com/Phala-Network/mcp-servers/tree/main/src/sequentialthinking",
     "author": "Leechael",
     "tags": ["MCP"]
   },
