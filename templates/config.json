@@ -30,6 +30,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/evm-mcp-server",
     "author": "MCP-DAO",
     "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
       { "key": "EVM_PRIVATE_KEY", "required": true },
       { "key": "RPC_URL", "required": true },
       { "key": "OPENAI_API_KEY", "required": true },
@@ -46,6 +47,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/demap-defilama",
     "author": "DeMCP",
     "icon": "mcp-defillama.svg",
+    "envs": [{ "key": "BEARER_TOKEN", "required": true }],
     "tags": ["MCP"]
   },
   {
@@ -55,6 +57,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/near-mcp-server",
     "author": "Phala-Network",
     "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
       { "key": "NEAR_KEYSTOREDATA", "required": true },
       { "key": "NEAR_NETWORK", "required": false },
       { "key": "NEAR_ACCOUNT_ID", "required": true }
@@ -69,6 +72,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/solana-mcp",
     "author": "SendAI & DARK",
     "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
       { "key": "SOLANA_PRIVATE_KEY", "required": true },
       { "key": "RPC_URL", "required": true },
       { "key": "OPENAI_API_KEY", "required": true }
@@ -83,6 +87,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/context7-mcp",
     "author": "Phala-Network",
     "icon": "mcp-context7.png",
+    "envs": [{ "key": "BEARER_TOKEN", "required": true }],
     "tags": ["MCP"]
   },
   {
@@ -92,6 +97,7 @@
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/elevenlabs-mcp-server",
     "author": "Phala-Network",
     "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
       { "key": "ELEVENLABS_API_KEY", "required": true },
       { "key": "ELEVENLABS_MCP_BASE_PATH", "required": true }
     ],
@@ -104,7 +110,10 @@
     "description": "A Supabase DB MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Supabase DB data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/supabase-db",
     "author": "Phala-Network",
-    "envs": [{ "key": "SUPABASE_ACCESS_TOKEN", "required": true }],
+    "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
+      { "key": "SUPABASE_ACCESS_TOKEN", "required": true }
+    ],
     "cover": "mcp-supabase.png",
     "tags": ["MCP"]
   },
@@ -114,7 +123,10 @@
     "description": "A Figma MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Figma data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/figma-mcp",
     "author": "Phala-Network",
-    "envs": [{ "key": "FIGMA_API_KEY", "required": true }],
+    "envs": [
+      { "key": "BEARER_TOKEN", "required": true },
+      { "key": "FIGMA_API_KEY", "required": true }
+    ],
     "cover": "mcp-figma.png",
     "tags": ["MCP"]
   },
