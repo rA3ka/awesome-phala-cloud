@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "anyone-anon-service",
     "name": "Anyone Anon Service",
     "description": "Sets up a Anyone Anon (hidden) service and serves an nginx website from that.",
@@ -15,8 +15,29 @@
     "repo": "https://github.com/moofdotfun/MOOF-MCP",
     "author": "MOOF",
     "icon": "moof.png",
-    "envs": [{ "key": "MOOF_API_KEY", "required": true }, { "key": "MCP_API_KEY", "required": true }, { "key": "BASE_URL", "required": false }, { "key": "MCP_BASE_URL", "required": false }],
+    "envs": [
+      { "key": "MOOF_API_KEY", "required": true },
+      { "key": "MCP_API_KEY", "required": true },
+      { "key": "BASE_URL", "required": false },
+      { "key": "MCP_BASE_URL", "required": false }
+    ],
     "tags": ["MCP", "A2A", "x402"]
+  },
+  {
+    "id": "evm-mcp",
+    "name": "EVM MCP",
+    "description": "This guide outlines the steps to set up and use a webshell with the ttyd service.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/evm-mcp-server",
+    "author": "MCP-DAO",
+    "envs": [
+      { "key": "EVM_PRIVATE_KEY", "required": true },
+      { "key": "RPC_URL", "required": true },
+      { "key": "OPENAI_API_KEY", "required": true },
+      { "key": "PERPLEXITY_API_KEY", "required": true },
+      { "key": "COINGECKO_PRO_API_KEY", "required": true }
+    ],
+    "cover": "mcp-evm.png",
+    "tags": ["MCP"]
   },
   {
     "id": "demap-defillama",
@@ -28,12 +49,73 @@
     "tags": ["MCP"]
   },
   {
+    "id": "near-mcp",
+    "name": "Near MCP",
+    "description": "A Near MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Near data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/near-mcp-server",
+    "author": "Phala-Network",
+    "envs": [
+      { "key": "NEAR_KEYSTOREDATA", "required": true },
+      { "key": "NEAR_NETWORK", "required": false },
+      { "key": "NEAR_ACCOUNT_ID", "required": true }
+    ],
+    "cover": "mcp-near.png",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "solana-mcp",
+    "name": "Solana MCP",
+    "description": "A Solana MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Solana data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/solana-mcp",
+    "author": "SendAI & DARK",
+    "envs": [
+      { "key": "SOLANA_PRIVATE_KEY", "required": true },
+      { "key": "RPC_URL", "required": true },
+      { "key": "OPENAI_API_KEY", "required": true }
+    ],
+    "cover": "mcp-solana.png",
+    "tags": ["MCP"]
+  },
+  {
     "id": "context7-mcp",
     "name": "Context7 MCP",
     "description": "A Context7 MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Context7 data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
     "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/context7-mcp",
     "author": "Phala-Network",
     "icon": "mcp-context7.png",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "elevenlabs-mcp",
+    "name": "ElevenLabs MCP",
+    "description": "An ElevenLabs MCP server deployed on Phala Cloud that enables AI agents to fetch real-time ElevenLabs data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/elevenlabs-mcp-server",
+    "author": "Phala-Network",
+    "envs": [
+      { "key": "ELEVENLABS_API_KEY", "required": true },
+      { "key": "ELEVENLABS_MCP_BASE_PATH", "required": true }
+    ],
+    "cover": "mcp-elevenlabs.png",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "supabase-db",
+    "name": "Supabase DB",
+    "description": "A Supabase DB MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Supabase DB data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/supabase-db",
+    "author": "Phala-Network",
+    "envs": [{ "key": "SUPABASE_ACCESS_TOKEN", "required": true }],
+    "cover": "mcp-supabase.png",
+    "tags": ["MCP"]
+  },
+  {
+    "id": "figma-mcp",
+    "name": "Figma MCP",
+    "description": "A Figma MCP server deployed on Phala Cloud that enables AI agents to fetch real-time Figma data, including protocol TVL (Total Value Locked), chain metrics, and token prices.",
+    "repo": "https://github.com/Phala-Network/awesome-phala-cloud/tree/main/prebuilt/figma-mcp",
+    "author": "Phala-Network",
+    "envs": [{ "key": "FIGMA_API_KEY", "required": true }],
+    "cover": "mcp-figma.png",
     "tags": ["MCP"]
   },
   {
@@ -153,7 +235,10 @@
     "repo": "https://github.com/Phala-Network/phala-cloud-vrf-template",
     "author": "Phala-Network",
     "icon": "vrf.png",
-    "envs": [{ "key": "RPC_URL", "required": true }, {"key": "CONTRACT_ADDRESS", "required": true}],
+    "envs": [
+      { "key": "RPC_URL", "required": true },
+      { "key": "CONTRACT_ADDRESS", "required": true }
+    ],
     "tags": ["VRF"]
   }
 ]
